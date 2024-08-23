@@ -50,11 +50,12 @@ fun LoginScreen(){
                 Spacer(modifier = Modifier.height(16.dp))
                 Button(onClick = { /*TODO*/ } , colors = ButtonDefaults.buttonColors( Color.Red)) {
                         Text(text = "login")
-                }
+                }  Text(text = stringResource(R.string.forgetpass) , fontSize = 20.sp , textDecoration = TextDecoration.Underline)
+
 
                 Row(modifier = Modifier
                         .fillMaxWidth()
-                        .padding(40.dp) , horizontalArrangement = Arrangement.SpaceEvenly) {
+                        .padding(40.dp) , horizontalArrangement = Arrangement.SpaceEvenly , verticalAlignment = Alignment.CenterVertically ) {
 
                         Image(
                                 painter = painterResource(id = R.drawable.our_products),
@@ -83,7 +84,7 @@ fun LoginScreen(){
 
                 }
                 Text(text = stringResource(R.string.help) , fontSize = 20.sp , textDecoration = TextDecoration.Underline)
-                Text(text = stringResource(R.string.forgetpass) , fontSize = 20.sp , textDecoration = TextDecoration.Underline)
+               
 
 
 
