@@ -82,7 +82,8 @@ fun LoginScreen(){
                                         .clickable { })
 
                 }
-                Text(text = stringResource(R.string.help) , fontSize = 20.sp)
+                Text(text = stringResource(R.string.help) , fontSize = 20.sp , modifier = Modifier.textDecoration(TextDecoration.Underline))
+                Text(text = stringResource(R.string.forgetpass) , fontSize = 20.sp , modifier = Modifier.textDecoration(TextDecoration.Underline))
 
 
 
