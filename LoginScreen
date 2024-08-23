@@ -36,7 +36,7 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun LoginScreen(){
         Column(
-                Modifier.fillMaxSize(), Arrangement.Top, AbsoluteAlignment.Right
+                Modifier.fillMaxSize(), Arrangement.Top, AbsoluteAlignment.Left
         ) {
                 Image(painter = painterResource(id = R.drawable.bm_icon), contentDescription = "bm login" , modifier = Modifier.size(100.dp) )
                 Spacer(modifier = Modifier.height(50.dp))
